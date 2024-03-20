@@ -1,0 +1,25 @@
+
+.custom-select {
+width: 50%; 
+margin: 0 auto; 
+margin-top: 50px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+border-radius: 8px; 
+}
+
+.custom-select:hover {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.custom-select select {
+width: 100%;
+padding: 15px;
+font-size: 16px;
+border: none;
+border-radius: 8px;
+appearance: none; 
+-webkit-appearance: none; 
+background-color: #f9f9f9;
+cursor: pointer;
+outline: none;
+}
